@@ -1,0 +1,13 @@
+.socialsbox_main {
+  display: flex;
+  flex-direction: column;
+  width: 46%;
+  height: 120px;
+  justify-content: space-between;
+}
+
+.socialsbox_rows {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

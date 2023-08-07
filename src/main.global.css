@@ -1,0 +1,133 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Comfortaa";
+  font-style: normal;
+  src: url(./public/fonts/Comfortaa/Comfortaa-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: "Hubballi";
+  font-weight: normal;
+  font-style: normal;
+  src: url(./public/fonts/Hubballi/Hubballi-Regular.ttf);
+}
+
+html {
+  box-sizing: border-box;
+  overscroll-behavior: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Comfortaa", sans-serif;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: #f9f9f9;
+}
+
+.header {
+  width: 100vw;
+  z-index: 2;
+  position: fixed;
+}
+
+.main {
+  padding-top: 90px;
+  padding-bottom: 75px;
+}
+
+.title {
+  text-align: center;
+  font-size: 18px;
+}
+
+.fz-18 {
+  font-size: 18px;
+}
+
+.fz-18 h4 {
+  font-size: 18px;
+}
+
+.page-enter {
+  opacity: 0;
+  transform: scale(1.1);
+}
+
+.page-enter-active {
+  opacity: 1;
+  transform: scale(1);
+  transition: opacity 300ms, transform 300ms;
+}
+
+.page-exit {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.page-exit-active {
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 300ms, transform 300ms;
+}
+
+.modal-anim {
+  animation: modal-anim 5.1s ease-in-out normal;
+}
+
+@keyframes modal-anim {
+  0% {
+    opacity: 0;
+    scale: 1;
+    transform: translateY(-100px);
+  }
+  20% {
+    opacity: 1;
+    scale: 1;
+    transform: translateY(0);
+  }
+  75% {
+    opacity: 1;
+    scale: 1;
+    transform: translateY(0);
+  }
+  95% {
+    opacity: 0;
+    scale: 1;
+    transform: translateY(-100px);
+  }
+  100% {
+    opacity: 0;
+    scale: 1;
+    transform: translateY(-100px);
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    scale: 0;
+  }
+  100% {
+    opacity: 1;
+    scale: 1;
+  }
+}
+
+@keyframes fade-out {
+  0% {
+    opacity: 1;
+    scale: 1;
+  }
+  100% {
+    opacity: 0;
+    scale: 0;
+  }
+}

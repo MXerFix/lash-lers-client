@@ -1,0 +1,21 @@
+.miniblock_wrapper {
+  cursor: pointer;
+  display: flex;
+  justify-content: start;
+  align-items: end;
+  padding: 16px;
+  width: 48%;
+  height: 120px;
+  border-radius: 16px;
+  background-color: white;
+  color: #333;
+  font-family: 'Comfortaa', sans-serif;
+  font-size: 18px;
+  box-shadow: 0.10000000149011612px 0.10000000149011612px 100px 0px rgba(121, 121, 121, 0.25);
+  scale: 1;
+  transition: .3s;
+}
+
+.miniblock_wrapper:hover {
+  scale: 1.05;
+}

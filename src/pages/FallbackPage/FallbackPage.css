@@ -1,0 +1,15 @@
+.oops_wrapper {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.support_a {
+  color: #fff;
+  border-radius: 2px;
+  text-decoration: none;
+  background-color: #333;
+  padding: 4px;
+}

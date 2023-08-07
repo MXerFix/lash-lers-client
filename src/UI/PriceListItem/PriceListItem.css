@@ -1,0 +1,33 @@
+.li_list {
+  margin: 0;
+  padding: 0;
+  padding: 12px 24px;
+  margin-bottom: 12px;
+  border-radius: 16px;
+  text-align: center;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0.1px 0.1px 100px 0px rgba(121, 121, 121, 0.25);
+
+}
+
+.h_list {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}
+
+.p_list {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+}
+
+.underline {
+  display: block;
+  margin: 4px 0;
+  content: "";
+  width: 100%;
+  height: 1px;
+  background-color: rgba(51, 51, 51, 0.085);
+}

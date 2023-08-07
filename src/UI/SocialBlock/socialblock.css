@@ -1,0 +1,21 @@
+.socialblock_main {
+  cursor: pointer;
+  width: 48%;
+  height: 56px;
+  background-color: white;
+  border-radius: 16px;
+  box-shadow: 0.10000000149011612px 0.10000000149011612px 100px 0px rgba(121, 121, 121, 0.25);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  scale: 1;
+  transition: .3s;
+}
+
+.socialblock_main:hover {
+  scale: 1.05;
+}
+
+/* .socialblock_main img {
+  width: 48px;
+} */

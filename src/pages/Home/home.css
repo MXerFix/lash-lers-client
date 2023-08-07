@@ -1,0 +1,13 @@
+.home_main {
+  display: flex;
+  flex-direction: column;
+  height: max-content;
+  padding: 32px 24px 0px 24px;
+}
+
+.home_row__block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}

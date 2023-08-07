@@ -36,7 +36,7 @@ export const delete_lash = async (id: number) => {
 
 export const get_all_categories = async () => {
   try {
-    const response = await $authHost.get('http://localhost:1500/api/lashes/category')
+    const response = await $authHost.get('http://127.0.0.1:1500/api/lashes/category')
     return response
   } catch (error) {
     throw error
